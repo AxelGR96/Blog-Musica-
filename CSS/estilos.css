@@ -1,0 +1,175 @@
+.contenido {
+  margin: 0 -5%;
+}
+
+.contenido2 {
+  border: 1px solid black;
+  margin: 3% -6%;
+  border-radius: 5px;
+  background: white;
+}
+
+.musicalia {
+  border: 1px solid black;
+  height: 200px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: white;
+}
+
+.logo img {
+  padding-top: 50px;
+  padding-left: -10px;
+  margin-left: -100px;
+}
+
+.icons-social img {
+  height: 50px;
+}
+
+.icons-social {
+  padding-top: 110px;
+  padding-left: 115px;
+}
+
+.nav {
+  border-radius: 5px;
+  border: 1px solid black;
+  background: #bb9f67;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+ul li {
+  font-size: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.image {
+  width: 380px;
+  margin-top: 20px;
+}
+
+.titulo {
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.parrafo1 {
+  margin-left: 13px;
+  font-size: 18px;
+}
+
+.solar {
+  margin-left: 10px;
+}
+
+.user {
+  width: 50px;
+  margin-left: 15px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.list-group-item {
+  width: 350px;
+  cursor: pointer;
+}
+
+.navegacion {
+  white-space: nowrap;
+  margin-left: 250px;
+}
+
+.search {
+  margin-top: 20px;
+  width: 350px;
+}
+
+body {
+  background: #a70724;
+}
+
+.parrafo2 {
+  font-size: 18px;
+}
+
+#search {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  width: 280px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .musicalia {
+    border: 1px solid black;
+    height: 350px;
+    /* width: 747px; */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: white;
+  }
+
+  .logo img {
+    padding-top: 50px;
+    padding-left: -10px;
+    margin-left: -130px;
+    height: 200px;
+  }
+
+  .icons-social img {
+    height: 70px;
+  }
+
+  .icons-social {
+    padding-top: 70px;
+    padding-left: 170px;
+  }
+
+  .nav {
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #bb9f67;
+    /* width: 747px; */
+  }
+
+  .ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 60px;
+    font-size: 20px;
+  }
+}
