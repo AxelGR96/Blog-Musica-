@@ -74,6 +74,10 @@ nav ul li a:hover {
   white-space: nowrap;
 }
 
+.titulo2 {
+  margin-left: 10px;
+}
+
 .parrafo1 {
   margin-left: 13px;
   font-size: 18px;
@@ -123,37 +127,44 @@ body {
   width: 280px;
 }
 
+.comentarios {
+  width: 735px;
+  height: 65px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .musicalia {
     border: 1px solid black;
     height: 350px;
-    /* width: 747px; */
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background: white;
   }
 
+  .contenido2 {
+    margin-right: -30px;
+  }
+
   .logo img {
     padding-top: 50px;
-    padding-left: -10px;
-    margin-left: -130px;
-    height: 200px;
+    padding-left: -20px;
+    margin-left: -90px;
+    height: 180px;
   }
 
   .icons-social img {
-    height: 70px;
+    height: 50px;
   }
 
   .icons-social {
-    padding-top: 70px;
-    padding-left: 170px;
+    padding-top: 110px;
+    padding-left: 65px;
   }
 
   .nav {
     border-radius: 5px;
     border: 1px solid black;
     background: #bb9f67;
-    /* width: 747px; */
   }
 
   .ul {
@@ -171,5 +182,28 @@ body {
     padding-left: 40px;
     padding-right: 60px;
     font-size: 20px;
+  }
+
+  .image {
+    width: 345px;
+    margin-top: 2px;
+    margin-left: 12px;
+    margin-right: 50px;
+  }
+
+  .user {
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  .comentarios {
+    width: 250px;
+    height: 60px;
+    margin-left: 10px;
+  }
+
+  .none {
+    display: none !important;
   }
 }
